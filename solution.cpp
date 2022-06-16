@@ -17,11 +17,13 @@ using namespace std;
   - this is the same as question 198 only that you
     are considering two separate lists
     - nums[0..n-2]
-      - you consider robbing the house 0 but not the
-        house n-1
+      - you consider the house 0 but not the
+        house n-1. Or you can assume there is
+        no hosue n-1 at all.
     - nums[1..n-1]
-      - you consider robbing the house n-1 but not the
-        house 0
+      - you consider the house n-1 but not the
+        house 0. Or you can assume there is
+        no hosue 0 at all.
     - the answer is whoever has a larger amount
 */
 int Solution::rob(vector<int> &nums)
