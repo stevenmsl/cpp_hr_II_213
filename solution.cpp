@@ -24,7 +24,7 @@ using namespace std;
       - you consider the house n-1 but not the
         house 0. Or you can assume there is
         no hosue 0 at all.
-    - the answer is whoever has a larger amount
+    -  pick whoever comes up with a larger amount
 */
 int Solution::rob(vector<int> &nums)
 {
